@@ -1,0 +1,82 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #424242;
+    
+}
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+body {
+    background:  var(--black);
+    color: var(--green);
+    margin: 0;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background-color: var(--gray);
+}
+.title h1 a {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    margin-left: .1em;
+    padding: 0;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    font-size: xx-large;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+.navbar-item a {
+    margin: .2em;
+    width: 50%;
+    display: flex;
+    margin-right: 10px;
+    font-size: large;
+    text-decoration: none;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.blurb {
+    max-width: 30em;
+    margin: 2.5em;
+    margin-top: 4em;
+}
+.selfie {
+    margin: 2.5em;
+    margin-top: 5em;
+}
